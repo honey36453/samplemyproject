@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(19, 16, 23, 0.7)),url(cover.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header{
+    text-align: top;
+    margin-top: 10px;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(179, 170, 167);
+}
+.menu {
+    float: right;
+    list-style: none;
+    margin-top: 30;
+    cursor: pointer;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(179, 170, 167);
+    padding: 5px 20px;
+    font-family: Verdana,sans-serif;
+}
+article{
+    background-color: bisque;
+    text-align: center;
+
+}
+h1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: center;
+}
